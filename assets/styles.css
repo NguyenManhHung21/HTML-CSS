@@ -1,0 +1,66 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#header {
+  background: url("../resources/images/bg-masthead.jpg") center / cover
+    no-repeat;
+  padding: 8rem 0;
+}
+#header .col-md-2 button {
+  width: 100%;
+}
+
+#content .icon-list {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+#content .content-intro {
+  min-height: 22rem;
+}
+
+#content .para-intro {
+  padding: 6rem;
+}
+
+.human-img {
+  width: 11rem;
+}
+
+.name {
+  font-size: 20px;
+}
+.people {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+.final-sign-up {
+  background: url("../resources/images/bg-masthead.jpg") center / cover
+    no-repeat;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+#footer {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+.list-inline a {
+  text-decoration: none;
+}
+.icon-media {
+  font-size: 26px;
+}
+
+/* Responsive */
+/* mobile */
+@media only screen and (max-width: 740px) {
+  #header {
+    background: url("../resources/images/bg-masthead.jpg") center / cover
+      no-repeat;
+    padding: 8rem 0;
+  }
+}
